@@ -1,0 +1,35 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; background:#fff; color:#000; }
+div,menu,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,legend,label,select,input,textarea,button {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+button                         { cursor: pointer; padding: 0 }
+select, input, textarea,button { font:12px Tahoma, sans-serif; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+img                            { vertical-align: top; }
+table                          { border-collapse:collapse; border-spacing:0; }
+/*a:link, a:visited              { !*font:12px Tahoma, sans-serif;*! color:#000; text-decoration:underline; }*/
+a:hover                        { text-decoration:none; }
+a {
+	text-decoration: none;
+	transition: 0.3s all ease-out;
+}
+
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.overflow                      { overflow: hidden}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}

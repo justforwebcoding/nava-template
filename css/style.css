@@ -1,0 +1,191 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-p {
+    padding: 0px 15px;
+}
+
+a:link, a:visited, a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------INTRO-------*/
+body {
+    text-transform: uppercase;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/intro/main-bg.jpg') 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    padding-top: 35px;
+    color: #fff;
+    text-align: center;
+
+    position: relative;
+}
+
+.intro-header {
+    width: 1500px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-header-logo {
+    width: 170px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.intro-header-logo img {
+    width: 170px;
+    height: 40px;
+}
+
+.intro-header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-header-list__item a {
+    display: block;
+    font: 16px "Raleway Bold", sans-serif;
+
+    line-height: 22px;
+    padding: 15px 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+
+}
+
+.intro-header-list__item a:hover {
+    border-color: #fff;
+}
+
+.intro-main {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 970px;
+    height: 330px;
+}
+
+.intro-main h2 {
+
+    line-height: 28px;
+    font-family: "Raleway", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.intro-main h3 {
+    padding: 30px 0px 80px 0px;
+    line-height: 22px;
+    font-family: "Opensans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.intro-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-form__input {
+    padding: 20px 30px 20px 30px;
+    width: 570px;
+    height: 60px;
+
+    line-height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    border: none;
+    
+    border-radius: 10px 0 0 10px;
+    color: #848484;
+    text-transform: uppercase;
+}
+
+.intro-form__button {
+    padding-left: 70px;
+    padding-right: 40px;
+
+
+    line-height: 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    border: none;
+
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+
+    background: #e7434e url('../img/intro/find.png') no-repeat 40px;
+    text-transform: uppercase;
+}
+
+.intro-info-list {
+
+    position: relative;
+    top: 620px;
+
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+}
+
+.intro-info-list__item{
+
+    padding: 20px 0px 20px 0px;
+
+    text-transform: none;
+}
+
+.intro-info-list__item .number{
+    display: block;
+
+    line-height: 22px;
+    font-family: "Opensans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+
+.intro-info-list__item .city{
+    display: block;
+    padding-top: 10px;
+
+    line-height: 22px;
+    font-family: "Opensans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+
+
+/*------DESTINATIONS-----*/
+.destinations {
+
+}
