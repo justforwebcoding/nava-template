@@ -1,5 +1,6 @@
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -215,35 +216,33 @@ body {
 }
 
 .destinations-list {
-    display: flex;
-    flex-wrap: wrap;
+    overflow: hidden;
     margin-bottom: 70px;
 }
 
 .destinations-list__item:nth-child(1) {
     width: 66%;
-    padding-left: 25px;
-}
-
-.destinations-list__item:nth-child(3n) {
-    padding-left: 25px;
 }
 
 .destinations-list__item {
-    position: relative;
+    float: left;
+    height: 360px;
 
+    position: relative;
 
     width: 33%;
     margin-bottom: 30px;
     padding: 0 15px;
+
+    overflow: hidden;
+
 }
 
 
 .destinations-list__item img {
     width: 100%;
-    height: 360px;
+    height: auto;
     border-radius: 5px;
-
 
 }
 
@@ -367,4 +366,63 @@ body {
     border: 1px solid #e7434e;
 }
 
+
+
 /*----FEATURED-BOATS-----*/
+
+
+
+
+
+
+
+
+
+
+/*------MEDIA-QUERIES------*/
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+
+    .destinations-list__item {
+        height: 290px;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    .destinations-list__item {
+        width: 50%;
+        height: 220px;
+    }
+
+    .destinations-list__item:nth-child(1) {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .destinations-list__item, .destinations-list__item:nth-child(1) {
+        width: 100%;
+    }
+
+    .destinations-list__item img {
+        min-width: 100%;
+        min-height: 100%;
+        height: auto;
+    }
+
+    @media(min-width: 550px) {
+        .destinations-list__item {
+            width: 50%;
+        }
+
+    }
+}
