@@ -142,11 +142,10 @@ body {
 }
 
 .intro-info-list {
-
     position: relative;
     top: 620px;
 
-    width: 100%;
+
     background-color: #fff;
 
     display: flex;
@@ -186,6 +185,186 @@ body {
 
 
 /*------DESTINATIONS-----*/
-.destinations {
+.destinations-header {
+    text-align: center;
+}
+
+.destinations-header h2 {
+    line-height: 28px;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.destinations-header p {
+    padding-top: 25px;
+
+    line-height: 22px;
+
+    font-family: "Opensans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-transform: none;
+    color: #848484;
+}
+
+.destinations-header {
+    margin: 180px 0px 90px 0px;
+}
+
+.destinations-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.destinations-list__item:nth-child(1) {
+    width: 66%;
+    padding-left: 25px;
+}
+
+.destinations-list__item:nth-child(3n) {
+    padding-left: 25px;
+}
+
+.destinations-list__item {
+    position: relative;
+
+
+    width: 33%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+
+.destinations-list__item img {
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+
 
 }
+
+.hover-block {
+    padding: 30px;
+    width: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 5px;
+}
+
+.hover-block .info {
+    padding-left: 25px;
+}
+
+.likes {
+    margin: 0px 0px 0px 25px;
+    padding: 10px 15px 10px 45px;
+
+
+    line-height: 22px;
+    font-family: "Opensans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+    border: none;
+
+    border-radius: 5px;
+    color: #fff;
+
+    background: #e7434e url('../img/intro/find.png') no-repeat 17px 11px;
+    text-transform: uppercase;
+}
+
+.hover-block h3 {
+
+    line-height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+
+    color: #fff;
+
+    text-transform: none;
+}
+
+.hover-block h4 {
+    padding-top: 10px;
+
+    line-height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+    color: #b3b3b3;
+
+    text-transform: none;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.destinations__button {
+    display: inline-block;
+
+
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+
+    padding: 25px 40px 25px 40px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+
+    margin-bottom: 80px;
+}
+
+
+/*-----Boat-----*/
+.boat {
+    width: 100%;
+
+    background: url('../img/boat/boat.jpg') 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    color: #fff;
+    text-align: center;
+
+    padding: 185px 0px 80px 0px;
+}
+
+.boat h2 {
+    line-height: 28px;
+    font-family: "Raleway", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.boat h3 {
+    padding: 30px 0px 80px 0px;
+    line-height: 22px;
+    font-family: "Opensans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.boat .center-block a {
+    background-color: #e7434e;
+    border: 1px solid #e7434e;
+}
+
+/*----FEATURED-BOATS-----*/
