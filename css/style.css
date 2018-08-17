@@ -369,7 +369,143 @@ body {
 
 
 /*----FEATURED-BOATS-----*/
+.featured-boats-list {
+    overflow: hidden;
+    margin-bottom: 70px;
+}
 
+
+.featured-boats-list__item {
+    float: left;
+    height: 360px;
+
+    position: relative;
+
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 0 15px;
+
+    overflow: hidden;
+
+}
+
+
+.featured-boats-list__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.hover-block {
+    padding: 30px;
+    width: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 5px;
+}
+
+.hover-block .info {
+    padding-left: 25px;
+}
+
+.likes {
+    margin: 0px 0px 0px 25px;
+    padding: 10px 15px 10px 45px;
+
+
+    line-height: 22px;
+    font-family: "Opensans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+    border: none;
+
+    border-radius: 5px;
+    color: #fff;
+
+    background: #e7434e url('../img/intro/find.png') no-repeat 17px 11px;
+    text-transform: uppercase;
+}
+
+.hover-block .car {
+
+    line-height: 40px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+
+    color: #fff;
+
+    text-transform: none;
+}
+
+.hover-block .city {
+    padding-left: 20px;
+    padding-top: 10px;
+
+    line-height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+    color: #b3b3b3;
+
+    text-transform: none;
+    background: url('../img/featured-boats/marker.png') no-repeat 0px 11px;
+}
+
+.hover-block .count {
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+    line-height: 22px;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+    color: #b3b3b3;
+
+    text-transform: none;
+    background: url('../img/featured-boats/contacts.png') no-repeat 0px 11px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.featured-boats-list__button {
+    display: inline-block;
+
+
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+
+    padding: 25px 40px 25px 40px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+
+    margin-bottom: 80px;
+}
 
 
 
